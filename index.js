@@ -18,7 +18,7 @@ function currentLine(katzDeliLine) {
         finalLine += (i + 1) + ". " + katzDeliLine[i] + ", ";
       }
       finalLine = finalLine.slice(0, finalLine.length - 2);
-      return "The line is currently: " + output;
+      return "The line is currently: " + finalLine;
     } else {
         return "The line is currently empty.";
     }
