@@ -20,6 +20,6 @@ function currentLine(katzDeliLine) {
       output = output.slice(0, output.length - 2);
       return 'The line is currently: ' + output;
     } else {
-        return 'The line is currently empty.'';
+        return 'The line is currently empty.';
     }
 }
